@@ -7,7 +7,7 @@ const config = {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : '/alex-e-clove.github.io'
+			base: process.argv.includes('dev') ? '' : '/https://alex-e-clove.github.io'
 		}
 	}
 };
