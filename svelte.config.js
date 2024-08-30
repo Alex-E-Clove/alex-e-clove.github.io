@@ -5,10 +5,7 @@ const config = {
 	kit: {
 		adapter: adapter({
 			fallback: '404.html'
-		}),
-		paths: {
-			base: process.argv.includes('dev') ? '' : '/https://alex-e-clove.github.io'
-		}
+		})
 	}
 };
 
